@@ -9,3 +9,8 @@ php add-code.php <name> <key> - add key to database with name <name>
 php key.php - generates random key
 
 default database ~/.gcode/keys
+
+example:
+git clone https://github.com/angmarb/google-code-cli && cd google-code-cli
+php add-code.php test <code> 
+php get-code.php test
